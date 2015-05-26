@@ -140,14 +140,22 @@
                         <constraints>
                             <constraint firstItem="BB8-65-Ybv" firstAttribute="leading" secondItem="Khj-rm-VUR" secondAttribute="leadingMargin" constant="-16" id="0Ii-wH-VOj"/>
                             <constraint firstItem="bwe-gm-3lQ" firstAttribute="leading" secondItem="Khj-rm-VUR" secondAttribute="leadingMargin" constant="-16" id="68Y-Qu-MO3"/>
-                            <constraint firstItem="ylU-Kl-8gt" firstAttribute="leading" secondItem="Khj-rm-VUR" secondAttribute="leadingMargin" constant="74" id="8gv-sx-upj"/>
+                            <constraint firstItem="ylU-Kl-8gt" firstAttribute="leading" secondItem="Khj-rm-VUR" secondAttribute="leadingMargin" constant="74" id="8gv-sx-upj">
+                                <variation key="heightClass=regular-widthClass=compact" constant="114"/>
+                            </constraint>
                             <constraint firstItem="bwe-gm-3lQ" firstAttribute="top" secondItem="xuh-Tb-n4h" secondAttribute="bottom" id="Ao6-bX-6OY"/>
-                            <constraint firstItem="VRc-eA-PAg" firstAttribute="leading" secondItem="Khj-rm-VUR" secondAttribute="leadingMargin" constant="84" id="IGf-ZS-glw"/>
+                            <constraint firstItem="VRc-eA-PAg" firstAttribute="leading" secondItem="Khj-rm-VUR" secondAttribute="leadingMargin" constant="84" id="IGf-ZS-glw">
+                                <variation key="heightClass=regular-widthClass=compact" constant="124"/>
+                            </constraint>
                             <constraint firstItem="VRc-eA-PAg" firstAttribute="top" secondItem="ylU-Kl-8gt" secondAttribute="bottom" constant="-16" id="JdX-gL-D4C"/>
-                            <constraint firstItem="Lta-Js-5rH" firstAttribute="top" secondItem="xuh-Tb-n4h" secondAttribute="bottom" constant="86" id="UXe-dl-vdJ"/>
+                            <constraint firstItem="Lta-Js-5rH" firstAttribute="top" secondItem="xuh-Tb-n4h" secondAttribute="bottom" constant="86" id="UXe-dl-vdJ">
+                                <variation key="heightClass=regular-widthClass=compact" constant="193"/>
+                            </constraint>
                             <constraint firstItem="bwe-gm-3lQ" firstAttribute="width" secondItem="Khj-rm-VUR" secondAttribute="width" id="c1t-NO-xLr"/>
                             <constraint firstItem="BB8-65-Ybv" firstAttribute="top" secondItem="xuh-Tb-n4h" secondAttribute="bottom" constant="44" id="hV5-Cd-ZVi"/>
-                            <constraint firstItem="Lta-Js-5rH" firstAttribute="leading" secondItem="Khj-rm-VUR" secondAttribute="leadingMargin" constant="84" id="qE9-MX-BNB"/>
+                            <constraint firstItem="Lta-Js-5rH" firstAttribute="leading" secondItem="Khj-rm-VUR" secondAttribute="leadingMargin" constant="84" id="qE9-MX-BNB">
+                                <variation key="heightClass=regular-widthClass=compact" constant="124"/>
+                            </constraint>
                             <constraint firstItem="ylU-Kl-8gt" firstAttribute="top" secondItem="Lta-Js-5rH" secondAttribute="bottom" constant="12" id="v9X-We-h2J"/>
                             <constraint firstItem="BB8-65-Ybv" firstAttribute="width" secondItem="Khj-rm-VUR" secondAttribute="width" id="vDK-KY-bzq"/>
                             <constraint firstItem="tyH-02-Hkx" firstAttribute="top" secondItem="BB8-65-Ybv" secondAttribute="bottom" id="wsf-VR-xNQ"/>
@@ -1229,6 +1237,6 @@
         <image name="logo_catolica" width="115" height="105"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="UKj-JF-XrV"/>
+        <segue reference="Mvn-0L-ksw"/>
     </inferredMetricsTieBreakers>
 </document>

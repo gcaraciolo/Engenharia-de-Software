@@ -103,6 +103,7 @@
 
 -(void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
     NSString *text = self.searchBar.text;
+    [self.view endEditing:YES];
     [self showHUD];
     [[ESBuscarService sharedInstance]
        searchBook:text

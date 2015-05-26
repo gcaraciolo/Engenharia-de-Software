@@ -48,9 +48,11 @@
     //TODO colocar um hud
     self.numeroAcervo = [ESLivroUtility sharedInstance].numeroAcervo;
     [self userHasBookAsItemPendente];
+    [self showHUD];
     [[ESDadosDoAcervoService sharedInstance] getDetalhesWithNumeroAcervo:self.numeroAcervo
                             completition:^(ESLivroDetalhe * livroDetalhe) {
                                 [self preencherLabels:livroDetalhe];
+                                [self hideHUD];
                             } failure:^(NSError *error) {
                                 UIAlertView *alert = [[UIAlertView alloc]
                                                           initWithTitle:@"error"
@@ -58,6 +60,7 @@
                                                                delegate:self
                                                       cancelButtonTitle:@"Ok"
                                                       otherButtonTitles:nil];
+                                [self hideHUD];
                                 [alert show];
                                 [self.navigationController popToRootViewControllerAnimated:YES];
                                 
@@ -96,6 +99,7 @@
 -(IBAction)doReserva:(id)sender {
     ESUsuario *usuario = [ESUsuarioUtility sharedInstance].usuario;
     if (usuario) {
+        [self showHUD];
         [[ESReservaService sharedInstance]
             doReservaWithCodigoAcervo:self.numeroAcervo
                               usuario:usuario
@@ -107,6 +111,7 @@
                                                            delegate:nil
                                                   cancelButtonTitle:@"OK"
                                                   otherButtonTitles:nil];
+                                 [self hideHUD];
                                  [alert show];
                              }
                             } failure:^(ESError *error) {
@@ -116,6 +121,7 @@
                                                           delegate:nil
                                                  cancelButtonTitle:@"OK"
                                                  otherButtonTitles:nil];
+                                [self hideHUD];
                                 [alert show];
                             }];
     } else {
@@ -126,6 +132,7 @@
 
 -(IBAction)doRenovacao:(id)sender {
     ESUsuario *usuario = [ESUsuarioUtility sharedInstance].usuario;
+    [self showHUD];
     [[ESRenovarService sharedInstance]
             doRenovacaoWithCodigoAcervo:self.numeroAcervo
                                 usuario:usuario
@@ -135,10 +142,12 @@
                                [message stringByAppendingString:@"\n"];
                                [message stringByAppendingFormat:@"Devolução: %@",renovacaoResponse.dthDevolucao];
                                UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Sucesso" message:message delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+                               [self hideHUD];
                                [alert show];
     
                               } failure:^(NSError *error) {
                                   UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Erro ao fazer renovação" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+                                  [self hideHUD];
                                   [alert show];    
                             }];
 }

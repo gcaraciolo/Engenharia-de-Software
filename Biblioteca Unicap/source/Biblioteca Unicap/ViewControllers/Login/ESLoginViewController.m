@@ -62,6 +62,7 @@
 //TODO dismiss keyboard when touch anywhere
     self.tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(didTapAnywhere)];
     self.tapRecognizer.cancelsTouchesInView = NO;
+    self.tapRecognizer.cancelsTouchesInView = NO;
     [self.view addGestureRecognizer:self.tapRecognizer];
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(keyboardWillShow)
@@ -80,7 +81,7 @@
 }
 
 -(void)didTapAnywhere {
-
+    [self.view endEditing:YES];
 }
 
 -(void)keyboardWillShow {

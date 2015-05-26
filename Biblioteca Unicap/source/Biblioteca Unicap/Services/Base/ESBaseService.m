@@ -29,7 +29,7 @@
     if ([[[ESBaseService sharedInstance] commomIP] isValid] && [[[ESBaseService sharedInstance] commomIP] length] == 12) {
         return [[ESBaseService sharedInstance] commomIP];
     }
-    return [self thiagoServer];
+    return [self ExternalNodeServer];
 }
 
 
@@ -44,8 +44,8 @@
     return @"http://localhost:3000/BibliotecaWeb/Service";
 }
 
-+(NSString *)macNodServer {
-    return @"http://192.168.0.19:3000/BibliotecaWeb/Service";
++(NSString *)ExternalNodeServer {
+    return @"http://172.17.16.227:3000/BibliotecaWeb/Service";
 }
 
 +(NSString *)raywenderlich {
@@ -93,6 +93,7 @@
     [manager.requestSerializer setValue:params[@"q"] forHTTPHeaderField:@"q"];
     [manager.requestSerializer setValue:params[@"m"] forHTTPHeaderField:@"m"];
     [manager.requestSerializer setValue:params[@"s"] forHTTPHeaderField:@"s"];
+    [manager.requestSerializer setValue:params[@"c"] forHTTPHeaderField:@"c"];
     
     [manager POST:urlAsString
        parameters:nil
@@ -101,6 +102,7 @@
               ESError *error = [[ESError alloc] init];
               BOOL check = [ESBaseService checkResponseStatusCode:response error:error];
               if (check) {
+                  NSLog(@"%@", response);
                   success(response);
               } else {
                   failure(error);

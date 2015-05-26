@@ -45,7 +45,7 @@
 }
 
 - (void) getExemplares:(NSString *)numeroAcervo {
-    
+    [self showHUD];
     [[ESExemplaresService sharedInstance]
      getExemplaresWithNumeroAcervo:numeroAcervo
                         completion:^(ESExemplarList *exemplarList) {
@@ -57,6 +57,7 @@
                             self.qtdEmprestado.text = exemplarList.qtdEmprestado;
                             self.exemplares = exemplarList.exemplares;
                             [self.tableView reloadData];
+                            [self hideHUD];
                             
                         } failure:^(NSError *operation) {
                             //TODO alert

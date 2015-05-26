@@ -18,6 +18,7 @@
 
 -(void)viewDidLoad {
     [super viewDidLoad];
+    [self.navigationItem setTitle:[NSString stringWithFormat:@"%@",NSStringFromClass([self class])]];
     NSLog(@"view load %@",[self class]);
 }
 
@@ -26,6 +27,8 @@
     NSLog(@"view apperar %@", [self class]);
 }
 
+
+#pragma mark - 
 -(void)showHUD {
     [MBProgressHUD showHUDAddedTo:self.view animated:YES];
 }

@@ -29,6 +29,7 @@
         [params setValue:@"3" forKey:@"t"];
         [params setValue:numeroAcervo forKey:@"q"];
 
+
         [ESBaseService doPostRequestWithParams:params
                                       success:^(id responseObject) {
                                           ESLivroDetalhe * livroDetalhe = [MTLJSONAdapter modelOfClass:[ESLivroDetalhe class]
