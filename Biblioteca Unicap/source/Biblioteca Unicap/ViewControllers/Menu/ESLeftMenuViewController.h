@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RESideMenu.h"
+#import <RESideMenu.h>
+#import "ESBaseViewController.h"
 
 #define kTitleHome @"Home"
 #define kTitleBuscarAcervo @"Buscar no acervo"

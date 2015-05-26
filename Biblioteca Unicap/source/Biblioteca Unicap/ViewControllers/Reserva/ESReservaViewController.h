@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ESBaseViewController.h"
 
-@interface ESReservaViewController : UIViewController
+@interface ESReservaViewController : ESBaseViewController
 
 @end

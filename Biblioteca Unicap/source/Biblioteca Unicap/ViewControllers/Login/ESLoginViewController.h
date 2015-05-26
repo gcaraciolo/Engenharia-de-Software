@@ -7,12 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ESBaseNavigationViewController.h"
+#import "ESBaseViewController.h"
 
 
-@interface ESLoginViewController : ESBaseNavigationViewController
-
-
--(void)didTapAnywhere;
+@interface ESLoginViewController : ESBaseViewController
 
 @end

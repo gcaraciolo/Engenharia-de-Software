@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ESBaseViewController.h"
 
-@interface ESExemplaresViewController : UIViewController
+@interface ESExemplaresViewController : ESBaseViewController
 
 @end

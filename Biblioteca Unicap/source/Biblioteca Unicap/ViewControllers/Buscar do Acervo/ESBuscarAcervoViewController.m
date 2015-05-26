@@ -36,7 +36,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [super setBarTitle:@"Buscar no Acervo"];
+//    [super setBarTitle:@"Buscar no Acervo"];
     self.searchBar.delegate = self;
     self.tableView.delegate = self;
     self.tableView.dataSource = self;

@@ -6,8 +6,9 @@
 //  Copyright (c) 2015 alunos. All rights reserved.
 //
 
-#import "ESBaseNavigationViewController.h"
+#import <UIKit/UIKit.h>
+#import "ESBaseViewController.h"
 
-@interface ESSettingsViewController : ESBaseNavigationViewController
+@interface ESSettingsViewController : ESBaseViewController
 
 @end

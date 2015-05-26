@@ -7,7 +7,6 @@
 //
 
 #import "ESBaseViewController.h"
-#import "ESLeftMenuViewController.h"
 
 @interface ESBaseViewController ()
 
@@ -16,18 +15,14 @@
 @implementation ESBaseViewController
 
 
-- (void)awakeFromNib
-{
-//    self.menuPreferredStatusBarStyle = UIStatusBarStyleLightContent;
-//    self.contentViewShadowColor = [UIColor blackColor];
-//    self.contentViewShadowOffset = CGSizeMake(0, 0);
-//    self.contentViewShadowOpacity = 0.6;
-//    self.contentViewShadowRadius = 12;
-//    self.contentViewShadowEnabled = YES;
-//    
-//    self.contentViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"contentViewControllerID"];
-//    self.leftMenuViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"leftMenuViewControllerID"];
-//    self.delegate = self;
+-(void)viewDidLoad {
+    [super viewDidLoad];
+    NSLog(@"view load %@",[self class]);
+}
+
+-(void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    NSLog(@"view apperar %@", [self class]);
 }
 
 

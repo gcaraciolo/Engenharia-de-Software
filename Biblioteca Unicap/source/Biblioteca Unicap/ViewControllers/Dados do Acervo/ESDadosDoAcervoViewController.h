@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ESBaseViewController.h"
 
-@interface ESDadosDoAcervoViewController : UIViewController
+@interface ESDadosDoAcervoViewController : ESBaseViewController
 
 @end

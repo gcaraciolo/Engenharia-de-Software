@@ -6,8 +6,10 @@
 //  Copyright (c) 2015 alunos. All rights reserved.
 //
 
-#import "RESideMenu.h"
+#import <UIKit/UIKit.h>
+#import "ESLeftMenuViewController.h"
 
-@interface ESBaseViewController : RESideMenu <RESideMenuDelegate>
+
+@interface ESBaseViewController : UIViewController
 
 @end

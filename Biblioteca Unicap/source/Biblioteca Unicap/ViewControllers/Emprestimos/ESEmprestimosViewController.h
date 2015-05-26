@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ESBaseNavigationViewController.h"
+#import "ESBaseViewController.h"
 
 
 #define kIDLivroCell @"emprestimoLivroCell"
 
-@interface ESEmprestimosViewController : ESBaseNavigationViewController
+@interface ESEmprestimosViewController : ESBaseViewController
 
 @property (strong, nonatomic) NSArray *livros;
 

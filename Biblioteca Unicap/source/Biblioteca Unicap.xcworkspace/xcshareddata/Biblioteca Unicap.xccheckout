@@ -10,6 +10,8 @@
 	<string>Biblioteca Unicap</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>0E645E6CD9526E3EC38DF75DF184905562C708B1</key>
+		<string>https://github.com/gcaraciolo/Engenharia-de-Software.git</string>
 		<key>21B77E128904797536FF9DC0E41559F146011574</key>
 		<string>https://github.com/gcaraciolo/University.git</string>
 	</dict>
@@ -17,17 +19,27 @@
 	<string>Biblioteca Unicap/source/Biblioteca Unicap.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>21B77E128904797536FF9DC0E41559F146011574</key>
+		<key>0E645E6CD9526E3EC38DF75DF184905562C708B1</key>
 		<string>../../..</string>
+		<key>21B77E128904797536FF9DC0E41559F146011574</key>
+		<string>../../../../University</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/gcaraciolo/University.git</string>
+	<string>https://github.com/gcaraciolo/Engenharia-de-Software.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>21B77E128904797536FF9DC0E41559F146011574</string>
+	<string>0E645E6CD9526E3EC38DF75DF184905562C708B1</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0E645E6CD9526E3EC38DF75DF184905562C708B1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Engenharia-de-Software</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

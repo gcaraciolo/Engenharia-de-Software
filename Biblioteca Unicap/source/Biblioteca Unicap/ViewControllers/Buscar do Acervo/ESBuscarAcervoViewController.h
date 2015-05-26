@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ESBaseNavigationViewController.h"
+#import "ESBaseViewController.h"
 
-@interface ESBuscarAcervoViewController : ESBaseNavigationViewController
+@interface ESBuscarAcervoViewController : ESBaseViewController
 
 @end

@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ESBaseNavigationViewController.h"
+#import "ESBaseViewController.h"
 #import "ESLivro.h"
 
-@interface ESLivroViewController : ESBaseNavigationViewController
+@interface ESLivroViewController : ESBaseViewController
 
 @property (strong, nonatomic) ESLivro *livro;
 

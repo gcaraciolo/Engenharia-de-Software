@@ -34,7 +34,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self configKeyboard];
-    [super setBarTitle:@"Login do Usuário"];
+//    [super setBarTitle:@"Login do Usuário"];
     self.btnEntrar.showsTouchWhenHighlighted = YES;
     self.btnLimpar.showsTouchWhenHighlighted = YES;
 }

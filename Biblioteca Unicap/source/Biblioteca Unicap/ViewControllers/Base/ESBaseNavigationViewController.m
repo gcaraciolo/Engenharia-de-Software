@@ -8,6 +8,7 @@
 
 #import "ESBaseNavigationViewController.h"
 
+#warning deprecated
 
 @interface ESBaseNavigationViewController ()
 
