@@ -1,0 +1,48 @@
+ {
+    "codCookie":"bh7d1dqjlnfkvq3ja0fr3g82s3", 
+    "numMatricula":"2012108034",   
+    "nomUsuario":"JOAO PAULO FREITAS DA SILVA",
+    "itensPendentes":[
+                    {
+                    "nomItem":"Java 6 : fundamentos, swing, blueJ e JDBC - 3. ed. / 2008 - Livros",
+                    "numAcervo":"191033",
+                    "numRenovacao":"6 / 20000", 
+                    "dthRenovacao":"22/05/2015", 
+                    "numExemplar":"99250078", 
+                    "vlrTaxaParcial":"0,00"
+                    }, {
+                    "nomItem":"Comunicação de dados e redes de computadores - 4. ed. / 2008 - Livros",
+                    "numAcervo":"170747", 
+                    "numRenovacao":"7 / 20000", 
+                    "dthRenovacao":"19/05/2015", 
+                    "numExemplar":"99223422", 
+                    "vlrTaxaParcial":"0,00"
+                    }, {
+                    "nomItem":"Fundamentos de sistemas operacionais - 8. ed. / 2010 - Livros", "numAcervo":"190801",
+                    "numRenovacao":"6 / 20000",
+                    "dthRenovacao":"19/05/2015",
+                    "numExemplar":"99249455",
+                    "vlrTaxaParcial":"0,00"
+                    }, {
+                    "nomItem":"Computer graphics with OpenGL - 3rd ed / 2004 - Livros", "numAcervo":"98990",
+                    "numRenovacao":"6 / 20000",
+                    "dthRenovacao":"19/05/2015",
+                    "numExemplar":"99001488",
+                    "vlrTaxaParcial":"0,00"
+                      }
+                   ], 
+    "codResp":"1",
+    "resp":"Logado com sucesso!",  
+    "itensReservados":[
+                      {
+                        "paramCancelamento":"174973@#&002@#&1@#&Unico@#&0 - Material Normal@#&Unico",   
+                        "indSituacao":"Aguardando",
+                        "dthLiberacao":" ",
+                        "nomItem":"Direito civil brasileiro. ", 
+                        "numAcervo":"174973", "numPosicaoFila":"2° ", 
+                        "dthReserva":"09/05/2015 20:19:20 ", 
+                        "idCheck":"check_1"
+                      }
+                      ]
+}
+ 

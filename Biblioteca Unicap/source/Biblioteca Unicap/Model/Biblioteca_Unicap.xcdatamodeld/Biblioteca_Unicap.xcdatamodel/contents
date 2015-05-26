@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14D131" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="ESItensPendentes" representedClassName="ESItensPendentes" syncable="YES">
+        <attribute name="dthRenovacao" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nomItem" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numAcervo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numExemplar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numRenovacao" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vlrTaxaParcial" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ESItensReservados" representedClassName="ESItensReservados" syncable="YES">
+        <attribute name="dthLiberacao" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dthReserva" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idCheck" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="indSituacao" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nomItem" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numAcervo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numPosicaoFila" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paramCancelamento" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ESLivro" representedClassName="ESLivro" syncable="YES">
+        <attribute name="dscItem" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nomAutor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nomItem" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numAcervo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numChamada" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numItem" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="srcImagem" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ESLivroDetalhe" representedClassName="ESLivroDetalhe" syncable="YES">
+        <attribute name="dscLocalEditora" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imagens" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nomAutor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nomEdicao" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nomEntradasSecundarias" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nomOriginal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nomTituloPrincipal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numChamada" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numIsbn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="qtdDisponivel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="txtAssuntos" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ESLivroExemplar" representedClassName="ESLivroExemplar" syncable="YES">
+        <attribute name="dthDevolucao" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dthEmprestimo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="indLocalizacao" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nomColecao" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numAcervo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numChamada" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numExemplar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="qtdDisponivel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="qtdEmprestado" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="qtdExemplares" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tipoEmprestimo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ESUsuario" representedClassName="ESUsuario" syncable="YES">
+        <attribute name="codCookie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nomUsuario" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numMatricula" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ESLivro" positionX="-63" positionY="-18" width="128" height="150"/>
+        <element name="ESLivroExemplar" positionX="36" positionY="36" width="128" height="210"/>
+        <element name="ESLivroDetalhe" positionX="54" positionY="108" width="128" height="210"/>
+        <element name="ESUsuario" positionX="27" positionY="153" width="128" height="90"/>
+        <element name="ESItensPendentes" positionX="36" positionY="162" width="128" height="135"/>
+        <element name="ESItensReservados" positionX="45" positionY="171" width="128" height="165"/>
+    </elements>
+</model>

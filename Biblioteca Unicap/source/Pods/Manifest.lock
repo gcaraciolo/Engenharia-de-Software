@@ -1,0 +1,41 @@
+PODS:
+  - AFNetworking (2.5.3):
+    - AFNetworking/NSURLConnection (= 2.5.3)
+    - AFNetworking/NSURLSession (= 2.5.3)
+    - AFNetworking/Reachability (= 2.5.3)
+    - AFNetworking/Security (= 2.5.3)
+    - AFNetworking/Serialization (= 2.5.3)
+    - AFNetworking/UIKit (= 2.5.3)
+  - AFNetworking/NSURLConnection (2.5.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.3)
+  - AFNetworking/Security (2.5.3)
+  - AFNetworking/Serialization (2.5.3)
+  - AFNetworking/UIKit (2.5.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - BBBadgeBarButtonItem (1.1)
+  - Mantle (2.0):
+    - Mantle/extobjc (= 2.0)
+  - Mantle/extobjc (2.0)
+  - RESideMenu (4.0.7)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - BBBadgeBarButtonItem
+  - Mantle
+  - RESideMenu (~> 4.0.7)
+
+SPEC CHECKSUMS:
+  AFNetworking: e1d86c2a96bb5d2e7408da36149806706ee122fe
+  BBBadgeBarButtonItem: 958744e7c429e467b14af983040dbaae105b3355
+  Mantle: d7c75b6fb789b20f7ae30cd0d09435fe545896ff
+  RESideMenu: f24c508404b49c667344c54aba7e590883533958
+
+COCOAPODS: 0.36.4

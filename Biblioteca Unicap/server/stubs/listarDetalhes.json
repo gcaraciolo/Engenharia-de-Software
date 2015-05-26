@@ -1,0 +1,60 @@
+
+{
+    "qtdExemplares":"16",
+    "qtdEmprestado":"1",
+    "exemplares":[
+                {
+                "dthEmprestimo":" ", 
+                "dthDevolucao":" ",
+                "nomColecao":" ", 
+                "indLocalizacao":"Col.Circulante ", 
+                "numExemplar":"7914016 ", 
+                "numItem":"v. 001 , ex. 1 ", 
+                "tipoEmprestimo":"Normal "
+                }, {
+                "dthEmprestimo":" ", 
+                "dthDevolucao":" ",
+                "nomColecao":" ", 
+                "indLocalizacao":"Col. Acervo B ", 
+                "numExemplar":"7914032 ", 
+                "numItem":"v. 001 , ex. 3 ", 
+                "tipoEmprestimo":"Indisponível "
+                }, {
+                "dthEmprestimo":" ", 
+                "dthDevolucao":" ",
+                "nomColecao":" ", 
+                "indLocalizacao":"Col.Circulante ", 
+                "numExemplar":"7914059 ", 
+                "numItem":"v. 001 , ex. 5 ", 
+                "tipoEmprestimo":"Normal "
+                }, {
+                "dthEmprestimo":" ", 
+                "dthDevolucao":" ",
+                "nomColecao":" ", 
+                "indLocalizacao":"Col.Circulante ", 
+                "numExemplar":"8506329 ", 
+                "numItem":"v. 001 , ex. 12 ", 
+                "tipoEmprestimo":"Normal "
+                }, {
+                "dthEmprestimo":" ", 
+                "dthDevolucao":" ",
+                "nomColecao":" ", 
+                "indLocalizacao":"Col.Circulante ", 
+                "numExemplar":"8841470 ", 
+                "numItem":"v. 001 , ex. 15 ", 
+                "tipoEmprestimo":"Normal "
+                }, {
+                "dthEmprestimo":"22/04/2015 19:59:20 ", 
+                "dthDevolucao":"07/05/2015 00:00:00 ",
+                "nomColecao":" ", 
+                "indLocalizacao":"Emprestado ", 
+                "numExemplar":"9115650 ", 
+                "numItem":"v. 001 , ex. 18 ", 
+                "tipoEmprestimo":"Emprestado "
+                }
+             ],
+    "qtdDisponivel":"15",
+    "numChamada":"  517 L533C"  
+}
+                
+

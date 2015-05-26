@@ -1,0 +1,23 @@
+{  
+    "desc" : {"CANCELAMENTO DE RESERVA DE ACERVO: Realiza o cancelamento da reserva de um livro."},
+    "request":  {
+      "url": "/BibliotecaWeb/Service", 
+      "method": "POST",
+      "headers": {
+          "t" : "7",
+          "m" : "id_Check1",
+          "q" : "123456",
+          "c" : "bh7d1dqjlnfkvq3ja0fr3g82s3"
+        }
+      },
+    "response": {
+      "status": 200, 
+      "headers": {
+        "Content-Type": "application/json"
+        },
+        "body": {
+                "codResp":"1",
+                "resp":"Apagado com sucesso!"              
+                }
+  }
+}

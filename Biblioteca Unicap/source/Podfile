@@ -1,0 +1,14 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+target 'Biblioteca Unicap' do
+pod 'RESideMenu', '~> 4.0.7'
+pod 'BBBadgeBarButtonItem'
+pod "AFNetworking", "~> 2.0"
+pod "Mantle"
+end
+
+target 'Biblioteca UnicapTests' do
+
+end
+

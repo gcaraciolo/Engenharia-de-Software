@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-Biblioteca Unicap-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Biblioteca Unicap-BBBadgeBarButtonItem.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Biblioteca Unicap-RESideMenu.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Biblioteca Unicap.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>174C278AF5F1D9ECE78B9E88</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A78797EB40D3BD2F1BE4B356</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DBE1CFF76B1B38E4F9CE311D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F8409B73FDE117F5409E3BFD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

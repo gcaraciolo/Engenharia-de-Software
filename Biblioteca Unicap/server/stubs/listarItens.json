@@ -1,0 +1,53 @@
+{
+"termoPesquisado":"o calculo com geometria analitica", 
+"itens":[
+        {
+        "nomItem":"Calculo com geometria analitica , O - 1. ed. / c1977 - ( Livros )",
+        "dscItem":"LEITHOLD, Louis. O calculo com geometria analitica. 1. ed. Sao paulo: Harper & raw do brasil, c1977.2 v. : il ",
+        "nomAutor":"LEITHOLD, Louis",
+        "numAcervo":"348",
+        "srcImagem":"",
+        "numItem":"1",
+        "numChamada":" 517 L533C"
+        }, {
+        "nomItem":"Calculo com geometria analitica , O - 2. ed. / c1982 - ( Livros )",
+        "dscItem":"LEITHOLD, Louis. O calculo com geometria analitica. 2. ed. Sao paulo: Harbra, c1982.2 v. : il ",
+        "nomAutor":"LEITHOLD, Louis", 
+        "numAcervo":"39601", 
+        "srcImagem":"", 
+        "numItem":"2",
+        "numChamada":" 517 L533C"
+        }, {
+        "nomItem":"Calculo com geometria analitica , O - 2. ed. / c1986 - ( Livros )",
+        "dscItem":"LEITHOLD, Louis. O calculo com geometria analitica. 2. ed. Sao paulo: Harbra, c1986.2 v. : il ",
+        "nomAutor":"LEITHOLD, Louis", 
+        "numAcervo":"39602", 
+        "srcImagem":"", 
+        "numItem":"3",
+        "numChamada":" 517 L533C"
+        }, {
+        "nomItem":"Cálculo com geometria analítica, O - 3. ed. / 1990 - ( Livros )", 
+        "dscItem":"LEITHOLD, Louis. O cálculo com geometria analítica. 3. ed. Saão Paulo: Harbra, c1990. v. ISBN 8529402065.", 
+        "nomAutor":"LEITHOLD, Louis",
+        "numAcervo":"185892",
+        "srcImagem":"",
+        "numItem":"4",
+        "numChamada":" 517 L533c"
+        }, {
+        "nomItem":"Cálculo com geometria analítica, O - 3. ed. / 1994 - ( Livros )",
+        "dscItem":"LEITHOLD, Louis. O cálculo com geometria analítica. 3. ed. São Paulo: Harbra, c1994. 2 v. ISBN 8529400941.",
+        "nomAutor":"LEITHOLD, Louis",
+        "numAcervo":"41009", 
+        "srcImagem":"http://www.unicap.br/pergamum/sumarios/00000E/00000EBE.jpg", "numItem":"5",
+        "numChamada":" 517 L533c 3. ed. 1994"
+        }, {
+        "dscItem":"LEITHOLD, Louis. O cálculo com geometria analítica. 3. ed. São Paulo: Harbra, c2002. v. ISBN 85-294-0094-1.",
+        "nomAutor":"LEITHOLD, Louis", 
+        "numAcervo":"86694", 
+        "srcImagem":"",
+        "numItem":"6",
+        "numChamada":" 517 L533c"
+        }
+    ],
+    "qtdItens":"6"
+}                
