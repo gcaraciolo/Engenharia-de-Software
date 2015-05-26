@@ -7,6 +7,7 @@
 //
 
 #import "ESBaseViewController.h"
+#import <MBProgressHUD.h>
 
 @interface ESBaseViewController ()
 
@@ -25,6 +26,13 @@
     NSLog(@"view apperar %@", [self class]);
 }
 
+-(void)showHUD {
+    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
+}
+
+-(void)hideHUD {
+    [MBProgressHUD hideHUDForView:self.view animated:YES];
+}
 
 
 @end

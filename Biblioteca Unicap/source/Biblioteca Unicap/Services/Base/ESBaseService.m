@@ -34,13 +34,13 @@
 
 
 +(NSString *)thiagoServer {
-    NSString * url = @"192.168.16";
+    NSString * url = @"172.17.18.102";
     NSString * port = @"8080";
     return [NSString stringWithFormat:@"http://%@:%@/BibliotecaWeb/Service",url,port];
 
 }
 
-+(NSString *)nodeServer {
++(NSString *)InternalNodeServer {
     return @"http://localhost:3000/BibliotecaWeb/Service";
 }
 

@@ -165,13 +165,16 @@
         return;
     }
     
+    [self showHUD];
     [[ESLoginService sharedInstance] doLoginWithMatricula:matricula
                                                     senha:senha
                     completition:^(ESUsuario * usuario) {
                         usuario.senha = senha;
                         [ESUsuarioUtility sharedInstance].usuario = usuario;
                         [self dismissViewControllerAnimated:YES completion:nil];
+                        [self hideHUD];
                     } failure:^(ESError * error) {
+                        [self hideHUD];
                         switch (error.networkingError) {
                             case loginStatusException: {
                                 UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Erro" message:@"Login ou senha invalidos." delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil];

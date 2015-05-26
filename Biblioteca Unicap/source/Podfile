@@ -6,6 +6,7 @@ pod 'RESideMenu', '~> 4.0.7'
 pod 'BBBadgeBarButtonItem'
 pod "AFNetworking", "~> 2.0"
 pod "Mantle"
+pod 'MBProgressHUD', '~> 0.9.1'
 end
 
 target 'Biblioteca UnicapTests' do

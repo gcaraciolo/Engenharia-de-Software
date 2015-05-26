@@ -14,6 +14,7 @@
 #import "ESBaseService.h"
 
 
+
 #define kIDLivroCell @"buscarLivroCell"
 
 @interface ESBuscarAcervoViewController () <UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate>
@@ -102,12 +103,14 @@
 
 -(void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
     NSString *text = self.searchBar.text;
-    self.hiddenItems = NO;
+    [self showHUD];
     [[ESBuscarService sharedInstance]
        searchBook:text
      completition:^(NSArray *livros) {
-        self.livros = livros;
-        [self.tableView reloadData];
+         self.hiddenItems = NO;
+         self.livros = livros;
+         [self.tableView reloadData];
+         [self hideHUD];
     } failure:^(NSError *error) {
         UIAlertView *alert =
         [[UIAlertView alloc] initWithTitle:@"Error"
@@ -115,9 +118,10 @@
                                   delegate:nil
                          cancelButtonTitle:@"Ok"
                          otherButtonTitles:nil];
-        [alert show];
+        [self hideHUD];
         self.livros = nil;
         [self.tableView reloadData];
+        [alert show];
     }];
 }
 

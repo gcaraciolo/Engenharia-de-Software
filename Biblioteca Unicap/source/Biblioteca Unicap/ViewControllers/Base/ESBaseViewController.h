@@ -12,4 +12,7 @@
 
 @interface ESBaseViewController : UIViewController
 
+-(void)showHUD;
+-(void)hideHUD;
+
 @end

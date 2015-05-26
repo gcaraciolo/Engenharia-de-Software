@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-Biblioteca Unicap-MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Biblioteca Unicap-Mantle.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,27 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>00EDDF311826BE8C2A2F6B7C</key>
+		<key>09332E27EAEA914E9EAFBCDB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>631E2C75E9DF0BC519CDCFCD</key>
+		<key>2269522C688EBDA8AB030859</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>65D0FA3B58AE038A05E9586C</key>
+		<key>70538EA198B1E3AC55B1AF1B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8FBC27F476D310EA39766662</key>
+		<key>74F5370B3F0DE5F1257DC94F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F829849B94A1E25713B2A2A9</key>
+		<key>8069AB3B3D8057118A9E0643</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B3491E44B13BDA32FDDF6000</key>
 		<dict>
 			<key>primary</key>
 			<true/>

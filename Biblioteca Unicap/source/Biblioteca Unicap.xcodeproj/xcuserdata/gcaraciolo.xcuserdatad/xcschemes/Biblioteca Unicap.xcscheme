@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "729867691AED3A3200BE7F3E"
-               BuildableName = "development.app"
+               BuildableName = "Biblioteca Unicap.app"
                BlueprintName = "Biblioteca Unicap"
                ReferencedContainer = "container:Biblioteca Unicap.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "729867691AED3A3200BE7F3E"
-            BuildableName = "development.app"
+            BuildableName = "Biblioteca Unicap.app"
             BlueprintName = "Biblioteca Unicap"
             ReferencedContainer = "container:Biblioteca Unicap.xcodeproj">
          </BuildableReference>
@@ -77,7 +77,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "729867691AED3A3200BE7F3E"
-            BuildableName = "development.app"
+            BuildableName = "Biblioteca Unicap.app"
             BlueprintName = "Biblioteca Unicap"
             ReferencedContainer = "container:Biblioteca Unicap.xcodeproj">
          </BuildableReference>
@@ -96,7 +96,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "729867691AED3A3200BE7F3E"
-            BuildableName = "development.app"
+            BuildableName = "Biblioteca Unicap.app"
             BlueprintName = "Biblioteca Unicap"
             ReferencedContainer = "container:Biblioteca Unicap.xcodeproj">
          </BuildableReference>

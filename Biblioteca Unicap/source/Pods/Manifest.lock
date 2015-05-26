@@ -24,18 +24,21 @@ PODS:
   - Mantle (2.0):
     - Mantle/extobjc (= 2.0)
   - Mantle/extobjc (2.0)
+  - MBProgressHUD (0.9.1)
   - RESideMenu (4.0.7)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
   - BBBadgeBarButtonItem
   - Mantle
+  - MBProgressHUD (~> 0.9.1)
   - RESideMenu (~> 4.0.7)
 
 SPEC CHECKSUMS:
   AFNetworking: e1d86c2a96bb5d2e7408da36149806706ee122fe
   BBBadgeBarButtonItem: 958744e7c429e467b14af983040dbaae105b3355
   Mantle: d7c75b6fb789b20f7ae30cd0d09435fe545896ff
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
   RESideMenu: f24c508404b49c667344c54aba7e590883533958
 
 COCOAPODS: 0.36.4

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "09332E27EAEA914E9EAFBCDB"
-               BuildableName = "libPods-Biblioteca Unicap-RESideMenu.a"
-               BlueprintName = "Pods-Biblioteca Unicap-RESideMenu"
+               BlueprintIdentifier = "70538EA198B1E3AC55B1AF1B"
+               BuildableName = "libPods-Biblioteca Unicap-MBProgressHUD.a"
+               BlueprintName = "Pods-Biblioteca Unicap-MBProgressHUD"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
