@@ -101,7 +101,7 @@
 		722A4E131B0932B600EC4199 /* ESResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESResponse.m; sourceTree = "<group>"; };
 		7255C7A71AF1C706004ECF02 /* ESEmprestimoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESEmprestimoService.h; sourceTree = "<group>"; };
 		7255C7A81AF1C706004ECF02 /* ESEmprestimoService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESEmprestimoService.m; sourceTree = "<group>"; };
-		7298676A1AED3A3200BE7F3E /* Biblioteca Unicap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Biblioteca Unicap.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7298676A1AED3A3200BE7F3E /* Unicap Biblioteca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unicap Biblioteca.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7298676E1AED3A3200BE7F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7298676F1AED3A3200BE7F3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		729867711AED3A3200BE7F3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -303,7 +303,7 @@
 		7298676B1AED3A3200BE7F3E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7298676A1AED3A3200BE7F3E /* Biblioteca Unicap.app */,
+				7298676A1AED3A3200BE7F3E /* Unicap Biblioteca.app */,
 				729867861AED3A3200BE7F3E /* Biblioteca UnicapTests.xctest */,
 			);
 			name = Products;
@@ -703,7 +703,7 @@
 			);
 			name = "Biblioteca Unicap";
 			productName = "Biblioteca Unicap";
-			productReference = 7298676A1AED3A3200BE7F3E /* Biblioteca Unicap.app */;
+			productReference = 7298676A1AED3A3200BE7F3E /* Unicap Biblioteca.app */;
 			productType = "com.apple.product-type.application";
 		};
 		729867851AED3A3200BE7F3E /* Biblioteca UnicapTests */ = {
@@ -991,12 +991,13 @@
 			baseConfigurationReference = C71AF14D6B87B83786D0D864 /* Pods-Biblioteca Unicap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Biblioteca Unicap/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "Biblioteca Unicap";
+				PRODUCT_NAME = "Unicap Biblioteca";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos8.3;
 			};
@@ -1007,12 +1008,13 @@
 			baseConfigurationReference = 6DFD046E19867B8FC881F791 /* Pods-Biblioteca Unicap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Biblioteca Unicap/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "Biblioteca Unicap";
+				PRODUCT_NAME = "Unicap Biblioteca";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos8.3;
 			};

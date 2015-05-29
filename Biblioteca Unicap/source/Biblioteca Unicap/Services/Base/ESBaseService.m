@@ -45,7 +45,7 @@
 }
 
 +(NSString *)ExternalNodeServer {
-    return @"http://172.17.16.227:3000/BibliotecaWeb/Service";
+    return @"http://192.168.0.12:3000/BibliotecaWeb/Service";
 }
 
 +(NSString *)raywenderlich {

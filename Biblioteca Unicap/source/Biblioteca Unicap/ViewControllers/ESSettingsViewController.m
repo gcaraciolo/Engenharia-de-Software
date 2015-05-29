@@ -18,6 +18,10 @@
 
 @implementation ESSettingsViewController
 
+-(void)viewDidLoad {
+    [super viewDidLoad];
+}
+
 -(void)hasIp {
     if ([self.txtIP.text isValid]) {
         [[ESBaseService sharedInstance] setCommomIP:self.txtIP.text];

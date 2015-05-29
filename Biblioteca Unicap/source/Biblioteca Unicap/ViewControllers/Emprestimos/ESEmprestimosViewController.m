@@ -30,6 +30,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.navigationItem setTitle:@"Lista de Emprestimos"];
 }
 
 -(void)viewDidAppear:(BOOL)animated {

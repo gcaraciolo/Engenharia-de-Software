@@ -36,6 +36,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.navigationItem setTitle:@"Dados do Acervo"];
     [self getBookDetails];
     
 }
@@ -126,7 +127,7 @@
                             }];
     } else {
         ESLoginViewController *loginVC = [self.storyboard instantiateViewControllerWithIdentifier:@"loginViewControllerID"];
-        [self.navigationController pushViewController:loginVC animated:NO];
+        [self.navigationController presentViewController:loginVC animated:YES completion:nil];
     }
 }
 

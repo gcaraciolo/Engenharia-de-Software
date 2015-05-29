@@ -18,7 +18,8 @@
 
 -(void)viewDidLoad {
     [super viewDidLoad];
-    [self.navigationItem setTitle:[NSString stringWithFormat:@"%@",NSStringFromClass([self class])]];
+    self.navigationItem.leftBarButtonItem.image =
+    [[UIImage imageNamed:@"IconMenu"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     NSLog(@"view load %@",[self class]);
 }
 

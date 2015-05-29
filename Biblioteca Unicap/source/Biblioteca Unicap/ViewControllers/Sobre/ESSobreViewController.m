@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    [super setBarTitle:@"Sobre"];
+    [self.navigationItem setTitle:@"Sobre"];
 }
 
 - (void)didReceiveMemoryWarning {
